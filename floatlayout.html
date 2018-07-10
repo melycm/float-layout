@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Float Layout</title>
+</head>
+<style>
+    body {
+        background-color: deeppink;
+        margin: 0px;
+
+    }
+    .header {
+        background-color: greenyellow;
+        padding: 20px;
+        margin: -0px;
+        font-size: 20px;
+        border: 2px solid black;
+    }
+
+    .sidebar {
+        background-color: orange;
+        margin: 10px;
+        height: 500px;
+        width: 30%;
+        font-size: 20px;
+        float: left;
+        border: 2px solid black;
+    }
+
+    .secondcolumn {
+        background-color: aqua;
+        margin: 10px;
+        float: left;
+        height: 450px;
+        width: 65%;
+        font-size: 20px;
+        border: 2px solid black;
+
+    }
+
+    .footer {
+        background-color: purple;
+        height: 70px;
+        /* margin-top: 470px; */
+        margin-left: 0px;
+        margin-bottom: 0px;
+        font-size: 20px;
+        border: 2px solid black;
+    }
+
+    .clear{
+        clear: both;
+    }
+</style>
+<body>
+    <div class="header">
+        Header
+    </div>
+
+    <div>
+    <div class="sidebar">
+        Side Bar
+    </div>
+
+    <div class="secondcolumn">
+        Second Column
+    </div>
+
+    <div class="clear"></div>
+</div>
+
+    <div class="footer">
+        Footer
+    </div>
+</body>
+</html>
